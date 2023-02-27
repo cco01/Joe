@@ -1,0 +1,52 @@
+* {
+  font-size: 1em;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 100%;
+}
+
+body {
+  font-family: Helvetica;
+  background-color: #FFC3B9;
+  min-width: 0;
+  min-height: 100vh;
+  line-height: 1.5;
+}
+
+.container {
+  margin-left: auto;
+  margin-right: auto;
+  padding: 2rem 4rem 2rem 4rem;
+}
+
+@media screen and (max-width: 455px) {
+  .container {
+    padding: 2rem 2rem 2rem 2rem;
+  }
+}
+
+#title {
+  font-weight: 650;
+  font-size: 2.5em;
+  margin-bottom: 1.25rem;
+  line-height: 1;
+}
+
+table {
+  border-collapse: collapse;
+  font-size: 1.5em;
+}
+
+td {
+  border: 3px solid #000;
+  padding: 0.5rem;
+  text-align: left;
+}
+
+.quant {
+  text-align: right;
+}
